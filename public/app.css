@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    background-color: #172c36;
+}
+
+.primary {
+    color: #64edbd;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+.title {
+    color: white;
+}
+
+ 
+h2, h4, h3 {
+    color: white;
+}
+
+.delete {
+    margin-left: 20px;
+    color: red;
+    cursor: pointer;
+    text-align: right;
+}
+
+input {
+    border-radius: 5%;
+    width: 400px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 42px;
+    background-color: antiquewhite;
+}
+
+textarea {
+    border-radius: 5%;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    background-color: antiquewhite;
+}
+
+.data-title {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#results {
+    border-radius: 5%;
+    width: 400px;
+    height: 200px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+}
+
+#action-button {
+    display: inline-block;
+}
+
+#buttons {
+    margin: 20px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+element.style {
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
