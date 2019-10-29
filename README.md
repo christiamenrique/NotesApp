@@ -20,6 +20,10 @@
 * Add ATLAS_URI on the .env to store data on Atlas.
 * node server
 
+# Demo
+
+* https://note-take-app.herokuapp.com/
+
 # Running the app
 
 * Using the command line npm start
